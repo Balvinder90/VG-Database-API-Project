@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VG Database | Your very own compact gaming database</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="fav/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="fav/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="fav/favicon-16x16.png"
+    />
+    <link rel="manifest" href="fav/site.webmanifest" />
+    <link rel="mask-icon" href="fav/safari-pinned-tab.svg" color="#ec7600" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header__container">
+          <img
+            src="img/logo.png"
+            class="header__logo"
+            alt="VG Database"
+            title="VG Database"
+          />
+
+          <form class="header__form">
+            <input
+              type="text"
+              class="header__form-search"
+              placeholder="Search Games"
+              id="game"
+              name="game"
+            />
+            <input class="header__form-submit" type="submit" value="Go" />
+          </form>
+        </div>
+      </header>
+      <section class="game"></section>
+      <footer class="footer">
+        <p class="footer__description">
+          All the data in this website is supplied by the
+          <a
+            class="footer__link"
+            target="_blank"
+            href="https://api.rawg.io/docs/"
+            >RAWG Video Games Database API</a
+          >
+        </p>
+      </footer>
+    </div>
+    <div class="modal d-none">
+      <div class="modal-close">Close</div>
+      <img src="" alt="" class="modal-img" />
+    </div>
+    <script src="js/javascript.js"></script>
+  </body>
+</html>
