@@ -1,5 +1,7 @@
 # VG-Database-API-Project
 
+## https://balvindersinghportfolio.netlify.app/sites/gamedb/
+
 1. Retrieves Data from an API called "RAWG"
 2. Modern JavaScript
 3. Asynchronous Javascript and Fetch API
